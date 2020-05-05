@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #1a1a1d;
+    font-family: sans-serif;
+}
+
+#fixed-banner {
+    position: fixed;
+    width: 100%;
+}
+
+#scroll-content {
+    padding-top: 6.75rem;
+}
+
+.edge-padding {
+    padding: 0 1rem;
+}
+
+.edge-padding > * {
+    max-width: 64rem;
+    margin: 1rem auto;
+}
+
+header {
+    opacity: 100%;
+    background-color: white;
+    border: 1px solid #1a1a1d;
+    border-radius: 0.75rem;
+}
+
+header > * {
+    padding: 0.75rem 1.2rem;
+}
+
+main > * {
+    background-color: white;
+    padding: 0.1rem 1.2rem;
+    border: 1px solid #c5d1c9;
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+footer > * {
+    padding: 0 1.2rem;
+}
+
+h1, h2, h3 {
+    line-height: 1.2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.15em;
+}
+
+#header-content {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header-content > * {
+    align-self: center;
+}
+
+#header-content > *:first-child {
+    margin-left: 0;
+    flex-grow: 1;
+}
+
+#header-content > *:last-child {
+    margin-right: 0;
+}
+
+.button-vstack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 0.27em;
+}
+
+.button-vstack > * {
+    align-self: center;
+    margin-top: 0.2em;
+}
+
+.button-vstack > *:first-child {
+    margin-top: 0;
+}
+
+.button-vstack * {
+    width: 100%;
+}
+
+button {
+    padding: 0.2em 0.5em;
+    font-size: 1rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+#button-donate {
+    font-size: 2rem;
+    height: 4.125rem;
+}
+
+.button-warn {
+    border-color: #ff5d6c;
+    background-color: #fbceb5;
+}
+
+.button-info {
+    border-color: #6c5dff;
+    background-color: #b5cefb;
+}
+
+.button-good {
+    border-color: #52de97;
+    background-color: #c0ffb3;
+}
+
+.text-good {
+    color: #12cf23;
+}
+
+#donation-total {
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.multi-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 0.2rem 0.5rem;
+    border-bottom: 1px solid #1a1a1d;
+}
+
+.multi-row:hover {
+    background-color: #eaeaea;
+}
+
+.multi-row:first-child {
+    border-top: 1px solid #1a1a1d;
+}
+
+.multi-row > *{
+    padding-left: 0.5em;
+    white-space: nowrap;
+}
+
+.multi-row > *:first-child {
+    font-style: italic;
+    flex-grow: 1;
+    white-space: normal;
+    padding-left: 0;
+}
+
+.multi-row > *:last-child {
+    min-width: 11em;
+    text-align: right;
+}
+
+a {
+    color: #0074d9;
+}
+
+a:visited {
+    color: #df5d1a;
+}
