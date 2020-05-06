@@ -34,7 +34,7 @@ header > * {
     padding: 0.75rem 1.2rem;
 }
 
-main > * {
+main section {
     background-color: white;
     padding: 0.1rem 1.2rem;
     border: 1px solid #c5d1c9;
@@ -178,4 +178,22 @@ a {
 
 a:visited {
     color: #df5d1a;
+}
+
+.content-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content-button > * {
+    align-self: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.content-button > *:first-child {
+    margin-left: 0;
+    flex-grow: 1;
 }
