@@ -184,7 +184,6 @@ a:visited {
     display: flex;
     justify-content: flex-end;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 .content-button > * {
@@ -196,4 +195,17 @@ a:visited {
 .content-button > *:first-child {
     margin-left: 0;
     flex-grow: 1;
+}
+
+.content-columns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-columns > *:first-child {
+    flex-grow: 1;
+}
+
+.content-columns > *:last-child {
+    text-align: right;
 }
