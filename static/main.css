@@ -225,3 +225,11 @@ a:visited {
     max-height: 120px;
     max-width: 100%;
 }
+
+section.club-title {
+    padding-top: 1rem;
+}
+
+section.club-title h1 {
+    margin-top: 0;
+}
