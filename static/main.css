@@ -168,8 +168,15 @@ button {
 }
 
 .multi-row > *:last-child {
-    min-width: 11em;
     text-align: right;
+}
+
+.multi-row > span:last-child {
+    min-width: 11rem;
+}
+
+.multi-row > strong:last-child {
+    min-width: 6rem;
 }
 
 a {
