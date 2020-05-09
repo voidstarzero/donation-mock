@@ -233,3 +233,7 @@ section.club-title {
 section.club-title h1 {
     margin-top: 0;
 }
+
+.pad-bottom {
+    padding-bottom: 1.2rem;
+}
