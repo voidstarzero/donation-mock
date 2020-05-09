@@ -102,7 +102,8 @@ h3 {
     width: 100%;
 }
 
-button {
+button,
+input[type=submit] {
     padding: 0.2em 0.5em;
     font-size: 1rem;
     border: 1px solid;
@@ -243,4 +244,20 @@ section.club-title h1 {
 
 .pad-bottom {
     padding-bottom: 1.2rem;
+}
+
+label {
+    font-weight: bold;
+    cursor: text;
+}
+
+form {
+    text-align: center;
+}
+
+.input-div {
+    text-align: right;
+}
+
+select {
 }
