@@ -260,4 +260,16 @@ form {
 }
 
 select {
+    width: 12rem;
+    -moz-appearance: textfield;
+    cursor: pointer;
+    height: 34px;
+}
+
+input[type=number] {
+    width: 4rem;
+    height: 34px;
+    margin-left: 0.125rem;
+    font-size: 1em;
+    padding: 0;
 }
