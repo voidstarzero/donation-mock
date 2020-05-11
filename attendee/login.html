@@ -41,13 +41,15 @@
                         <form method="post">
                             <div class="pad-bottom">
                                 <label for="username-field">Username:</label>
-                                <input name="username" id="username-field" type="text">
+                                <input name="username" id="username-field" type="text"
+                                       minlength="3"
+                                       maxlength="15">
                             </div>
                             <div class="pad-bottom">
                                 <label for="password-field">Password:</label>
                                 <input name="password" id="password-field" type="password"
-                                       minlength="3"
-                                       maxlength="20">
+                                       minlength="8"
+                                       maxlength="50">
                             </div>
                             <div class="input-div">
                                 <input type="submit" value="Login" class="button-good">
