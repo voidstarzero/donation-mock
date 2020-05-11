@@ -267,6 +267,7 @@ select {
 }
 
 input[type=text],
+input[type=email],
 input[type=password] {
     width: 12rem;
     height: 34px;
@@ -282,4 +283,12 @@ input[type=number] {
     margin-left: 0.125rem;
     font-size: 1em;
     padding: 0;
+}
+
+hr.form-rule {
+    margin: 1rem 0;
+}
+
+input[type=checkbox] + label {
+    font-weight: normal;
 }
