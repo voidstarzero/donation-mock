@@ -292,3 +292,11 @@ hr.form-rule {
 input[type=checkbox] + label {
     font-weight: normal;
 }
+
+.right {
+    text-align: right;
+}
+
+.payment-row {
+    color: forestgreen;
+}
